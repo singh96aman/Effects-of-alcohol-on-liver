@@ -1,0 +1,14 @@
+Project Name:
+Case Study on Effects of Excessive Alcohol on Liver
+
+Problem Statement: 
+Building a Python based Machine Learning application that takes in account blood test results of liver based diseases and disorders and compares with number of alcoholic beverages consumed per day.
+
+Theory:
+In the age of free access to cheap alcohol to anyone above 21 and lenient rules for younger children consuming alcohol, we are coming across cases of liver damage, liver failure or other liver disorders among the masses at very young age. It’s the need of the hour to address people what liver disorders excessive consumption of alcohol can lead to as well as how much alcohol consumption is excessive and can lead to serious repercussions. 
+
+Techniques:
+Using A UCI Repository based dataset on different Machine Learning algorithms such as K nearest classifier, Logistic Regression, Gradient Descent, etc. Further, comparing results from these algorithms and getting the most accurate result. After getting good results, I’ll look for more datasets regarding this topic and implement these algorithms on them to strengthen my remarks. 
+
+Language Used:
+Python and its libraries 
