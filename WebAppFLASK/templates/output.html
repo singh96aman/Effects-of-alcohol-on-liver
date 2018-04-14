@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Liver Analysis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cover.css') }}">
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</head>
+
+<body>
+<br>
+<br>
+<h2> Coefficient after Training dataset using Random Forest Classifier</h2>
+<br>
+<br>
+<table class="table">
+<tbody>
+{% for item in coeff %}
+    <tr>
+        <td>{{item}}</td>
+    </tr>
+{% endfor %}
+ </tbody>
+</table>
+<br>
+<br>
+For Input values mentioned below :
+<br>
+{{test}}
+<br>
+<br>
+The result of our analysis is :
+<br>
+{{temp}}
+<br>
+<br>
+Predicted with an accuracy of : {{res}} %
+<br>
+</body>
+</html>

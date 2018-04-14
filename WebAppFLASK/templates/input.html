@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Enter Details</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cover.css') }}">
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</head>
+
+<body>
+<div>
+<form action="" method="POST">
+<div class="container">
+        <br>
+        <br>
+        <form class="form-signin">
+        <h2 class="form-signin-heading" align="center">Please Enter Your Medical Test Results</h2>
+          <br>
+          <br>
+        <label for="text">Enter Mean corpuscular Volume Test Results</label>
+        <input type="text" name="mcv" id="mcv" class="form-control" placeholder="Enter MCV" required autofocus name="username">
+          <br>
+          <br>
+        <label for="text">Enter Alkaline phosphatase Test Results</label>
+        <input type="text" id="pass" name="alkphos" class="form-control" placeholder="Enter Alkphos" required name="username">
+          <br>
+          <br>
+        <label for="text">Enter Alamine aminotransferase Test Results</label>
+        <input type="text" id="pass" name="sgpt" class="form-control" placeholder="Enter Sgpt" required name="username">
+          <br>
+          <br>
+        <label for="text">Enter Aspartate aminotransferase Test Results</label>
+        <input type="text" id="pass" name="sgot" class="form-control" placeholder="Enter Sgot" required name="username">
+          <br>
+          <br>
+        <label for="text">Enter Gamma-glutamyl transpeptidase Test Results</label>
+        <input type="text" id="pass" name="gammagt" class="form-control" placeholder="Enter Gammagt" required name="username">
+          <br>
+          <br>
+        <label for="text">Enter the no of half pints equivalents of alcoholic beverages drunk per day</label>
+        <input type="text" id="pass" name="drinks" class="form-control" placeholder="Enter the required number" required name="username">
+          <br>
+          <br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+        <br>
+          <br>
+          <br>
+      </form>
+
+    </div> <!-- /container -->
+                </form>
+
+</div>
+</body>
+</html>
