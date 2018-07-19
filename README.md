@@ -1,7 +1,5 @@
 # Effects-of-alcohol-on-liver
 
-Building a Python based Machine Learning application that takes in account blood tests which are thought to be sensitive to liver disorders that might arise from excessive alcohol consumption and compare with number of alcoholic beverages consumed per day.
-
 Key Features
 1. Working with UCI Machine Learning Repository datasets.
 2. Complex medical problem statement solved using machine learning.
