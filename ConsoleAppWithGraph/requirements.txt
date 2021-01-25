@@ -23,7 +23,7 @@ h5py==2.7.1
 httplib2==0.18.0
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.10.1
 lrutils==0.1.4
 lxml==4.6.2
 MarkupSafe==1.0
