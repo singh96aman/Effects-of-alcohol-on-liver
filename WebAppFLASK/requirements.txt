@@ -36,7 +36,7 @@ pandas==0.20.2
 passlib==1.6.2
 pbr==3.1.1
 Pillow==8.2.0
-protobuf==3.5.1
+protobuf==3.15.0
 py-bcrypt==0.4
 pyasn1==0.4.2
 pyasn1-modules==0.2.1
