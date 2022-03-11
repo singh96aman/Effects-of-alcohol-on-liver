@@ -35,7 +35,7 @@ olefile==0.44
 pandas==0.20.2
 passlib==1.6.2
 pbr==3.1.1
-Pillow==8.2.0
+Pillow==9.0.1
 protobuf==3.5.1
 py-bcrypt==0.4
 pyasn1==0.4.2
